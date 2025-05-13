@@ -31,6 +31,22 @@ A customizable and responsive multi-timer web application built with **React**, 
 
 ---
 
+## 🔍 Assumptions Made
+
+⏱️ Timers are managed in Redux and not persisted to a backend.
+
+🕘 History is stored in memory for the session (not saved in localStorage or a database).
+
+🌙 Dark/light mode uses Tailwind’s dark: class based on prefers-color-scheme.
+
+📁 Export history outputs a downloadable JSON or CSV file on the client.
+
+⌛ All time values are tracked in seconds.
+
+🏷️ Each timer can optionally belong to a category used for filtering history.
+
+---
+
 ## 📦 Setup Instructions
 
 ### 1. Clone the Repository
@@ -53,19 +69,7 @@ npm run start
 npm start
 
 
-## 🔍 Assumptions Made
 
-⏱️ Timers are managed in Redux and not persisted to a backend.
-
-🕘 History is stored in memory for the session (not saved in localStorage or a database).
-
-🌙 Dark/light mode uses Tailwind’s dark: class based on prefers-color-scheme.
-
-📁 Export history outputs a downloadable JSON or CSV file on the client.
-
-⌛ All time values are tracked in seconds.
-
-🏷️ Each timer can optionally belong to a category used for filtering history.
 
 
 
