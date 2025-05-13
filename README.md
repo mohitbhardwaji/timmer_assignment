@@ -52,7 +52,7 @@ A customizable and responsive multi-timer web application built with **React**, 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/multi-timer-app.git
+git clone https://github.com/mohitbhardwaji/timmer_assignment.git
 cd multi-timer-app
 
 
